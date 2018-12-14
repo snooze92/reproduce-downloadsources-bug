@@ -1,0 +1,249 @@
+2018-12-14 13:52:40,536 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-12-14 13:52:40,568 [     32]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-182.4129.33, 21 Aug 2018 09:40) 
+2018-12-14 13:52:40,568 [     32]   INFO -        #com.intellij.idea.Main - OS: Mac OS X (10.13.4, x86_64) 
+2018-12-14 13:52:40,568 [     32]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1248-b8 (JetBrains s.r.o) 
+2018-12-14 13:52:40,568 [     32]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK 64-Bit Server VM) 
+2018-12-14 13:52:40,575 [     39]   INFO -        #com.intellij.idea.Main - JVM Args: -server -Xms8g -Xmx8g -Xss16m -XX:NewRatio=3 -XX:MaxPermSize=1024m -XX:+UseParNewGC -XX:ParallelGCThreads=4 -XX:+UseConcMarkSweepGC -XX:ConcGCThreads=4 -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:CMSInitiatingOccupancyFraction=65 -XX:+CMSScavengeBeforeRemark -XX:+UseCMSInitiatingOccupancyOnly -XX:ReservedCodeCacheSize=256m -XX:+AggressiveOpts -XX:+AlwaysPreTouch -XX:+TieredCompilation -XX:+UseCodeCacheFlushing -XX:+UseCompressedOops -Dide.projectView.show.visibility=true -Djb.vmOptionsFile=/Users/jlehuen/Library/Preferences/IntelliJIdea2018.2/idea.vmoptions -Didea.java.redist=jdk-bundled -Didea.home.path=/Applications/IntelliJ IDEA.app/Contents -Didea.executable=idea -Didea.paths.selector=IntelliJIdea2018.2 
+2018-12-14 13:52:40,575 [     39]   INFO -        #com.intellij.idea.Main - ext: /Applications/IntelliJ IDEA.app/Contents/jdk/Contents/Home/jre/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2018-12-14 13:52:40,575 [     39]   INFO -        #com.intellij.idea.Main - ext: /System/Library/Java/Extensions: [MRJToolkit.jar] 
+2018-12-14 13:52:40,575 [     39]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2018-12-14 13:52:40,589 [     53]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 13 ms 
+2018-12-14 13:52:40,620 [     84]   INFO -        #com.intellij.idea.Main - initializing environment 
+2018-12-14 13:52:40,623 [     87]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -l -i -c '/Applications/IntelliJ IDEA.app/Contents/bin/printenv.py' '/private/var/folders/xg/38x0vcf53x51jp_glvt4r1phsw14qg/T/intellij-shell-env.tmp' 
+2018-12-14 13:52:40,737 [    201]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (11 vars) 
+2018-12-14 13:52:40,754 [    218]   INFO - .intellij.util.EnvironmentUtil - LC_CTYPE=en_US.UTF-8 
+2018-12-14 13:52:40,766 [    230]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2018-12-14 13:52:40,778 [    242]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 2.0 (JRE-managed HiDPI) 
+2018-12-14 13:52:42,366 [   1830]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor python-terminal-plugin.xml 
+2018-12-14 13:52:43,272 [   2736]   INFO - .intellij.idea.IdeaApplication - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@6a1eef86[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@1635644d 
+2018-12-14 13:52:44,099 [   3563]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor python-terminal-plugin.xml 
+2018-12-14 13:52:44,439 [   3903]   INFO - llij.ide.plugins.PluginManager - Plugin 'CVS Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,447 [   3911]   INFO - llij.ide.plugins.PluginManager - Plugin 'Perforce Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,448 [   3912]   INFO - llij.ide.plugins.PluginManager - Plugin 'TFS Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,450 [   3914]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring AOP/@AspectJ' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,450 [   3914]   INFO - llij.ide.plugins.PluginManager - Plugin 'Ant Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,450 [   3914]   INFO - llij.ide.plugins.PluginManager - Plugin 'TestNG-J' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,451 [   3915]   INFO - llij.ide.plugins.PluginManager - Plugin 'Velocity support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,451 [   3915]   INFO - llij.ide.plugins.PluginManager - Plugin 'Mercurial Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,452 [   3916]   INFO - llij.ide.plugins.PluginManager - Plugin 'BashSupport' can't be loaded because: Plugin since-build or until-build don't match this product's build number 
+2018-12-14 13:52:44,452 [   3916]   INFO - llij.ide.plugins.PluginManager - Plugin 'GlassFish Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,453 [   3917]   INFO - llij.ide.plugins.PluginManager - Plugin 'Heroku integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,453 [   3917]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,453 [   3917]   INFO - llij.ide.plugins.PluginManager - Plugin 'JSR45 Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,454 [   3918]   INFO - llij.ide.plugins.PluginManager - Plugin 'OpenShift integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,454 [   3918]   INFO - llij.ide.plugins.PluginManager - Plugin 'Resin Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,454 [   3918]   INFO - llij.ide.plugins.PluginManager - Plugin 'Tomcat and TomEE Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,455 [   3919]   INFO - llij.ide.plugins.PluginManager - Plugin 'CloudBees integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,455 [   3919]   INFO - llij.ide.plugins.PluginManager - Plugin 'Geronimo Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,455 [   3919]   INFO - llij.ide.plugins.PluginManager - Plugin 'WebSphere Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,456 [   3920]   INFO - llij.ide.plugins.PluginManager - Plugin 'WebLogic Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,456 [   3920]   INFO - llij.ide.plugins.PluginManager - Plugin 'Hibernate Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,457 [   3921]   INFO - llij.ide.plugins.PluginManager - Plugin 'Application Servers View' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,457 [   3921]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss Frameworks Base Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,458 [   3922]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss Drools Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,458 [   3922]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss Arquillian Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,458 [   3922]   INFO - llij.ide.plugins.PluginManager - Plugin 'Struts 1.x' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,459 [   3923]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss jBPM' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,459 [   3923]   INFO - llij.ide.plugins.PluginManager - Plugin 'Tapestry support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,460 [   3924]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss Seam Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,460 [   3924]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss Seam Pageflow Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,460 [   3924]   INFO - llij.ide.plugins.PluginManager - Plugin 'JBoss Seam Pages Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,461 [   3925]   INFO - llij.ide.plugins.PluginManager - Plugin 'Osmorc' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,462 [   3926]   INFO - llij.ide.plugins.PluginManager - Plugin 'AspectJ Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,462 [   3926]   INFO - llij.ide.plugins.PluginManager - Plugin 'Flash/Flex Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,463 [   3927]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,464 [   3928]   INFO - llij.ide.plugins.PluginManager - Plugin 'Cloud Foundry integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,464 [   3928]   INFO - llij.ide.plugins.PluginManager - Plugin 'Java EE: Web Services (JAX-WS)' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,465 [   3929]   INFO - llij.ide.plugins.PluginManager - Plugin 'dmServer Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,465 [   3929]   INFO - llij.ide.plugins.PluginManager - Plugin 'FreeMarker support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,466 [   3930]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Batch' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,466 [   3930]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Data' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,466 [   3930]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring OSGi' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,466 [   3930]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Security' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,467 [   3931]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Integration Patterns' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,467 [   3931]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring WebSocket' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,467 [   3931]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Web Services' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,468 [   3932]   INFO - llij.ide.plugins.PluginManager - Plugin 'Struts 2' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,468 [   3932]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring MVC' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,468 [   3932]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Web Flow' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,469 [   3933]   INFO - llij.ide.plugins.PluginManager - Plugin 'Thymeleaf' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,469 [   3933]   INFO - llij.ide.plugins.PluginManager - Plugin 'Google App Engine Integration' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,469 [   3933]   INFO - llij.ide.plugins.PluginManager - Plugin 'Vaadin Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,470 [   3934]   INFO - llij.ide.plugins.PluginManager - Plugin 'Grails' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,470 [   3934]   INFO - llij.ide.plugins.PluginManager - Plugin 'Android Support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,473 [   3937]   INFO - llij.ide.plugins.PluginManager - Plugin 'Scala' can't be loaded because: Plugin since-build or until-build don't match this product's build number 
+2018-12-14 13:52:44,474 [   3938]   INFO - llij.ide.plugins.PluginManager - Plugin 'Less support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,474 [   3938]   INFO - llij.ide.plugins.PluginManager - Plugin 'Sass support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,474 [   3938]   INFO - llij.ide.plugins.PluginManager - Plugin 'Stylus support' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,475 [   3939]   INFO - llij.ide.plugins.PluginManager - Plugin 'LiveEdit' can't be loaded because: Plugin since-build or until-build don't match this product's build number 
+2018-12-14 13:52:44,475 [   3939]   INFO - llij.ide.plugins.PluginManager - Plugin 'CoffeeScript' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,476 [   3940]   INFO - llij.ide.plugins.PluginManager - Plugin 'Docker integration' can't be loaded because: Plugin since-build or until-build don't match this product's build number 
+2018-12-14 13:52:44,476 [   3940]   INFO - llij.ide.plugins.PluginManager - Plugin 'Python' can't be loaded because: Plugin since-build or until-build don't match this product's build number 
+2018-12-14 13:52:44,477 [   3941]   INFO - llij.ide.plugins.PluginManager - Plugin 'Spring Boot' can't be loaded because: Plugin is disabled 
+2018-12-14 13:52:44,562 [   4026]   INFO - llij.ide.plugins.PluginManager - 140 plugins initialized in 549 ms 
+2018-12-14 13:52:44,563 [   4027]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (182.4129.33), Bytecode Viewer (0.1), CFML Support (3.53), CSS Support (182.4129.33), Copyright (8.1), Coverage (182.4129.33), Cucumber for Groovy (182.4129.33), Cucumber for Java (182.4129.33), DSM Analysis (1.0.0), Database Tools and SQL (182.4129.33), Eclipse Integration (3.0), EditorConfig (182.4129.33), Emma (182.4129.33), GWT Support (1.0), Gherkin (999.999), Git Integration (8.1), GitHub (182.4129.33), Gradle (182.4129.33), Groovy (9.0), Guice (8.0), HTML Tools (2.0), HTTP Client (182.4129.33), Haml (182.4129.33), I18n for Java (182.4129.33), IDE Settings Sync (182.4129.33), IDEA CORE (182.4129.33), IntelliLang (8.0), J2ME (1.0), JUnit (1.0), Java Bytecode Decompiler (182.4129.33), Java EE: Batch Applications (1.0), Java EE: Bean Validation Support (1.1), Java EE: Contexts and Dependency Injection (1.1), Java EE: EJB, JPA, Servlets (1.0), Java EE: JMS, JSON Processing, Concurrency, Transaction  (1.0), Java EE: Java Server Faces (2.2.X.), Java EE: RESTful Web Services (JAX-RS) (1.0), Java EE: WebSockets (1.0), Java Server Pages (JSP) Integration (1.0), Java Stream Debugger (182.4129.33), JavaFX (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Jetty Integration (1.0), Markdown support (182.4129.33), Maven Integration (182.4129.33), Maven Integration Extension (182.4129.33), Persistence Frameworks Support (1.0), Playframework Support (1.0), Plugin DevKit (1.0), Properties Support (182.4129.33), Reactor framework support (1.0), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Settings Repository (182.4129.33), Smali Support (1.0), Spy-js (182.4129.33), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), Time Tracking (1.0), UI Designer (182.4129.33), UML Support (1.0), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (182.4129.33), ZKM-Unscramble (1.0), tslint (182.4129.33) 
+2018-12-14 13:52:44,563 [   4027]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GitLab integration (1.0.4), IDE Features Trainer (0.8.62), Kotlin (1.3.0-release-IJ2018.2-1), YourKit Java Profiler 2018.04-b82 Integration (2018.4.82.0), nullability-annotations-inspection (0.0.10) 
+2018-12-14 13:52:44,563 [   4027]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Support (10.3.1.2), Ant Support (1.0), Application Servers View (0.2.0), AspectJ Support (1.2), BashSupport (1.6.13.181), CVS Integration (11), Cloud Foundry integration (1.0), CloudBees integration (1.0), CoffeeScript (182.4129.33), Docker integration (181.4668.68), Flash/Flex Support (182.4129.33), FreeMarker support (1.0), Geronimo Integration (1.0), GlassFish Integration (1.0), Google App Engine Integration (1.1.4), Grails (9.0), Heroku integration (182.4129.33), Hibernate Support (1.0), JBoss Arquillian Support (1.0), JBoss Drools Support (1.0), JBoss Frameworks Base Support (1.0), JBoss Integration (1.0), JBoss Seam Pageflow Support (1.0), JBoss Seam Pages Support (1.0), JBoss Seam Support (1.0), JBoss jBPM (2.0.0), JSR45 Integration (1.0), Java EE: Web Services (JAX-WS) (1.9), Less support (182.4129.33), LiveEdit (181.3870.1), Mercurial Integration (10.0), OpenShift integration (1.0), Osmorc (1.4.11), Perforce Integration (2.0), Python (2018.1.181.4668.68), Resin Integration (8.1), Sass support (182.4129.33), Scala (2018.1.9), Spring AOP/@AspectJ (1.0), Spring Batch (1.0), Spring Boot (1.0), Spring Data (1.0), Spring Integration Patterns (1.0), Spring MVC (1.0), Spring OSGi (1.0), Spring Security (1.0), Spring Support (1.0), Spring Web Flow (1.0), Spring Web Services (1.0), Spring WebSocket (1.0), Struts 1.x (2.0), Struts 2 (1.0), Stylus support (999.999), TFS Integration (999.999), Tapestry support (1.0), TestNG-J (8.0), Thymeleaf (1.0), Tomcat and TomEE Integration (1.0), Vaadin Support (1.0), Velocity support (1.0), WebLogic Integration (1.0), WebSphere Integration (1.0), dmServer Support (0.9.5) 
+2018-12-14 13:52:45,296 [   4760]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2018-12-14 13:52:45,383 [   4847]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=7967 
+2018-12-14 13:52:45,636 [   5100]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /Applications/IntelliJ IDEA.app/Contents/bin/fsnotifier 
+2018-12-14 13:52:45,646 [   5110]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-12-14 13:52:45,840 [   5304]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2018-12-14 13:52:45,840 [   5304]   INFO - pi.util.registry.RegistryState -   SBT.system.in.process = true 
+2018-12-14 13:52:45,848 [   5312]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button 
+2018-12-14 13:52:45,924 [   5388]   INFO - tellij.openapi.util.IconLoader - replace '/nodes/newFolder.png' with 'AllIcons.Nodes.Folder' 
+2018-12-14 13:52:46,290 [   5754]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=0.0; restored: fontSize=12, fontScale=1.0 
+2018-12-14 13:52:46,653 [   6117]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-12-14 13:52:46,668 [   6132]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-12-14 13:52:46,745 [   6209]   INFO - m.intellij.ui.mac.touchbar.NST - touchbar-server isn't running, skip nst loading 
+2018-12-14 13:52:46,770 [   6234]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-12-14 13:52:46,942 [   6406]   INFO - j.ide.ui.OptionsTopHitProvider - 316 ms spent to cache options in application 
+2018-12-14 13:52:46,942 [   6406]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 316 ms 
+2018-12-14 13:52:46,979 [   6443]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:149, number of extensions:63 
+2018-12-14 13:52:47,117 [   6581]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:138 
+2018-12-14 13:52:47,172 [   6636]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:44, number of extensions:100 
+2018-12-14 13:52:47,174 [   6638]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:1 
+2018-12-14 13:52:47,685 [   7149]   INFO - plication.impl.ApplicationImpl - 99 application components initialized in 3676ms 
+2018-12-14 13:52:47,741 [   7205]   INFO - .intellij.idea.IdeaApplication - App initialization took 8316 ms 
+2018-12-14 13:52:48,226 [   7690]   INFO - pl$FileIndexDataInitialization - Initialization done:1109 
+2018-12-14 13:52:48,329 [   7793]   INFO - exImpl$StubIndexInitialization - Initialization done:102 
+2018-12-14 13:52:48,534 [   7998]   INFO - ellij.project.impl.ProjectImpl - 19 project components initialized in 189 ms 
+2018-12-14 13:52:48,952 [   8416]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 2008 ms 
+2018-12-14 13:52:49,036 [   8500]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2018-12-14 13:52:49,051 [   8515]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2018-12-14 13:52:49,580 [   9044]   INFO - CompilerWorkspaceConfiguration - Available processors: 12 
+2018-12-14 13:52:49,890 [   9354]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 938 ms 
+2018-12-14 13:52:50,058 [   9522]   INFO - ellij.project.impl.ProjectImpl - 158 project components initialized in 1044 ms 
+2018-12-14 13:52:50,166 [   9630]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 107 ms 
+2018-12-14 13:52:50,167 [   9631]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 276 ms 
+2018-12-14 13:52:50,174 [   9638]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 6 ms 
+2018-12-14 13:52:50,264 [   9728]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-12-14 13:52:50,425 [   9889]   INFO - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2018-12-14 13:52:51,724 [  11188]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 274ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:52:52,036 [  11500]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2018-12-14 13:52:52,615 [  12079]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 1174ms under project opening modal progress 
+2018-12-14 13:52:52,655 [  12119]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 7 millis 
+2018-12-14 13:52:52,709 [  12173]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1342ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:52:53,748 [  13212]   INFO - j.ide.ui.OptionsTopHitProvider - 258 ms spent on EDT to cache options in application 
+2018-12-14 13:52:53,812 [  13276]   INFO - tartup.impl.StartupManagerImpl - /Users/jlehuen/Code/downloadsources/.idea case-sensitivity: expected=false actual=false 
+2018-12-14 13:52:53,821 [  13285]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2018-12-14 13:52:54,063 [  13527]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 5125 ms 
+2018-12-14 13:52:54,114 [  13578]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2018-12-14 13:52:54,270 [  13734]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2545ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2018-12-14 13:52:54,271 [  13735]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2018-12-14 13:52:54,383 [  13847]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 112ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:52:54,584 [  14048]   INFO - j.ide.ui.OptionsTopHitProvider - 61 ms spent to cache options in project 
+2018-12-14 13:52:54,627 [  14091]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2018-12-14 13:52:55,028 [  14492]   INFO - j.ide.ui.OptionsTopHitProvider - 195 ms spent on EDT to cache options in project 
+2018-12-14 13:52:59,852 [  19316]   INFO -      #org.jetbrains.idea.maven - org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact junit:junit:jar:sources:4.12 
+java.lang.RuntimeException: org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact junit:junit:jar:sources:4.12
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.resolve(Maven3ServerEmbedderImpl.java:1252)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.doResolve(Maven3ServerEmbedderImpl.java:1194)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.doResolve(Maven3ServerEmbedderImpl.java:1188)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.resolve(Maven3ServerEmbedderImpl.java:1057)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact junit:junit:jar:sources:4.12
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:434)
+	... 24 more
+2018-12-14 13:52:59,931 [  19395]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-12-14 13:53:00,008 [  19472]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:53:00,068 [  19532]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 60ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:53:02,779 [  22243]   INFO -      #org.jetbrains.idea.maven - org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact junit:junit:jar:sources:4.12 
+java.lang.RuntimeException: org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact junit:junit:jar:sources:4.12
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.resolve(Maven3ServerEmbedderImpl.java:1252)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.doResolve(Maven3ServerEmbedderImpl.java:1194)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.doResolve(Maven3ServerEmbedderImpl.java:1188)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.resolve(Maven3ServerEmbedderImpl.java:1057)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact junit:junit:jar:sources:4.12
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:434)
+	... 24 more
+2018-12-14 13:53:02,799 [  22263]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-12-14 13:53:02,844 [  22308]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:53:02,874 [  22338]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 30ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:53:05,839 [  25303]   INFO -      #org.jetbrains.idea.maven - org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact junit:junit:jar:sources:4.12 
+java.lang.RuntimeException: org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact junit:junit:jar:sources:4.12
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.resolve(Maven3ServerEmbedderImpl.java:1252)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.doResolve(Maven3ServerEmbedderImpl.java:1194)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.doResolve(Maven3ServerEmbedderImpl.java:1188)
+	at org.jetbrains.idea.maven.server.Maven3ServerEmbedderImpl.resolve(Maven3ServerEmbedderImpl.java:1057)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact junit:junit:jar:sources:4.12
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:434)
+	... 24 more
+2018-12-14 13:53:05,855 [  25319]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-12-14 13:53:05,893 [  25357]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:53:05,922 [  25386]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-12-14 13:53:12,943 [  32407]   INFO - ution.rmi.RemoteProcessSupport - Terminating: 44390/Maven3ServerImpl4d770150 
+2018-12-14 13:53:13,202 [  32666]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-12-14 13:53:13,203 [  32667]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-12-14 13:53:13,203 [  32667]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-12-14 13:53:13,225 [  32689]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-12-14 13:53:13,255 [  32719]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-12-14 13:53:13,267 [  32731]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2018-12-14 13:53:13,270 [  32734]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-12-14 13:53:13,483 [  32947]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-12-14 13:53:13,510 [  32974]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-12-14 13:53:13,512 [  32976]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-12-14 13:53:13,515 [  32979]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
