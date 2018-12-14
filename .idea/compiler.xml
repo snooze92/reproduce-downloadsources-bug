@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="download-sources" />
         <module name="downloadsources" />
+        <module name="reproduce-downloadsources-bug" />
       </profile>
     </annotationProcessing>
   </component>
