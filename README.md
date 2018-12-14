@@ -20,9 +20,9 @@ Clicking the `Download...` link fails, no matter how many times I try.
 
 ## Versions affected
 
-It seems that all of my colleagues that use IntelliJ IDEA 2018.1 or newer on Mac OS have this problem.
-I have one colleague using 2018.1 on Linux and things work fine for him,
-and another colleague who tried a 2017 version on Mac OS and confirmed that it worked as well.
+I use Mac OS X 10.13.4 and IntelliJ 2018.3. This affects 2018.2 and 2018.1 as well.
+Trying a 2017 version works and does not reproduce the issue.
+Running any version under Linux works and does not reproduce the issue.
 
 I use Maven 3.3.9, either the version bundled with the IDE, or the maven@3.3 Homebrew formula. 
 
